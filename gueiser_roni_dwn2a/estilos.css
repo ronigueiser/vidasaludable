@@ -794,6 +794,8 @@ header h1{
     nav {
         position: initial;
         background-color: transparent;
+        width: fit-content;
+        margin-left: auto;
 
     }
 

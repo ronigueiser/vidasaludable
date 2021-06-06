@@ -768,9 +768,7 @@ header h1{
 
     #barra{
         display: flex;
-        flex-direction: row-reverse;
-        width: 50%;
-        margin-left: 50%;
+
 
     }
 

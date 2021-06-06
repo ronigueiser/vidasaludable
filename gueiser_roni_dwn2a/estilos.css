@@ -1,0 +1,984 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(218, 232, 218);
+}
+
+.texto{
+    display: none;
+}
+
+
+
+
+header {
+    /*max-width: 480px;*/
+    width: 100%;
+    /*background-color: lightgreen;*/
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: calc(85vw * .638);
+
+
+    text-align: center;
+
+
+}
+
+.texto{
+    display: none;
+}
+
+#hamburguesa li:last-child{
+    display: none;
+}
+
+#barra{
+    display:none;
+}
+
+#menu:target #hamburguesa li:first-child{
+    display: none;
+}
+
+#menu:target #hamburguesa li:last-child{
+    display: block;
+}
+
+
+#menu:target #barra{
+    display: block;
+}
+
+nav{
+    background-color: rgb(74, 44, 44);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#hamburguesa li{
+    width: 2.5rem;
+    background-color: rgb(74, 44, 44);
+}
+
+#hamburguesa li a{
+    display: block;
+    height: 2.5rem;
+    font-size: 0;
+    background:url("img/menu.png") no-repeat center center;
+    background-size: cover;
+    margin-top: -14px;
+}
+
+#menu:target #hamburguesa li a{
+    margin-top:0;
+}
+
+#barra li{
+    list-style: none;
+    width: 80%;
+    display: inline-block;
+    background: antiquewhite;
+    margin: 1rem 0;
+}
+
+
+
+
+#barra li a{
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    color:rgb(74, 44, 44);
+}
+
+#barra li a:hover{
+    background-color: rgb(218, 232, 218);
+}
+
+#manu:target #barra{
+    margin-bottom: 15px;
+}
+/*
+nav ul li{
+    list-style: none;
+    width: 60%;
+    display: inline-block;
+
+    background: aqua;
+    margin: 1rem 0;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav ul li a:hover{
+    background-color: lightgreen;
+}
+
+nav{
+    background-color: lightgray;
+}
+
+*/
+
+
+
+header h1 {
+    display: none;
+    width: 60%;
+    float: right;
+    padding-top: 0.2rem;
+    height: 50%;
+    font-family: 'Aleo', serif;
+
+}
+
+.beneficios h2{
+    text-align: center;
+}
+/*Selector Beneficios de hacer RUNNING*/
+.beneficios h2{
+    font-family: 'Aleo', serif;
+    padding: 0.3rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: rgb(74, 44, 44);
+    background-color: rgb(183, 206, 183);
+    border-radius: 50px;
+    width: 90%;
+    margin: 20px auto auto;
+
+}
+
+#beneficio{
+    padding: 2.5rem;
+    max-width: 670px;
+    /*width: 90%;*/
+    margin: auto;
+    border-radius: 25px;
+}
+
+#beneficio h3{
+    padding-bottom: 15px;
+    color: rgb(74, 44, 44);
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+#beneficio p{
+    font-size: 1.1rem;
+    line-height: 1.45rem;
+
+}
+/*Selector Running y Salud Corporal*/
+
+.running{
+    padding: 2.5rem;
+}
+
+
+.running h2{
+    font-family: 'Prompt', sans-serif;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(74, 44, 44);
+    margin-top: 55px;
+    margin-left: 11px;
+}
+
+
+
+/*Iconos en pastillas*/
+
+.zapatilla{
+    background-image: url("img/zapatilla.png");
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+}
+
+.corriendo {
+    background-image: url("img/corriendo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+
+}
+
+.botiquin{
+    background-image: url("img/botiquin.png");
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+}
+
+.feliz{
+    background-image: url("img/feliz.png");
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+}
+
+
+.pastilla{
+    max-width: 324px;
+    background-color: rgb(74, 44, 44);
+    margin: 5rem auto;
+    border-radius: 35px;
+    color: white;
+    font-size: 1.2rem;
+
+
+}
+
+
+
+.pastilla p{
+    padding: 1rem 1rem 170px;
+    line-height: 1.45rem;
+    font-size: 1.2rem;
+
+}
+/*Selector Will Smith*/
+.will{
+    background-color: rgb(119, 165, 119);
+    padding: 2.5rem;
+    width: 100%;
+}
+
+.articulo{
+    display: flex;
+    width: 76vw;
+    height: calc(76vw * 315 / 560);
+    max-width: 560px;
+    max-height: 315px;
+
+
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+
+    border: 0;
+    /*
+    width="474"
+    height="476"
+    */
+
+    /*width="560" height="315"*/
+}
+
+
+/*
+ 474  476
+
+ */
+
+/* 16    1em
+    40   2.5 em
+ */
+
+#video{
+    padding-bottom: 20px;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.video p{
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+    line-height: 1.45rem;
+    margin: auto;
+}
+
+.marathon{
+    display: none;
+}
+
+/*Selector maratones*/
+.world{
+
+    /* width: 77%; */
+    /*max-width: 490px;*/
+    /*margin: auto;*/
+}
+
+.world h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.4rem;
+    color: rgb(74, 44, 44);
+}
+
+#maraton > figure > div > p{
+    padding-top: 25px;
+}
+/*Selector parrafo maratones World Major*/
+#maraton > figure.world > p{
+    font-size: 1.2rem;
+    padding: 35px 0 15px;
+    line-height: 1.45rem;
+}
+
+
+.world div{
+    margin: 35px 0;
+    padding: 2.5rem;
+}
+#maraton figure h3{
+    font-family: 'Prompt', sans-serif;
+    color: rgb(74, 44, 44);
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+
+#maraton .verde p{
+    line-height: 1.45rem;
+    font-size: 1.2rem;
+}
+
+#maraton .noverde p{
+    line-height: 1.45rem;
+    font-size: 1.2rem;
+}
+
+.verde{
+    background-color: rgb(183, 206, 183);
+    width: 100%;
+    padding: 2.5rem;
+}
+.noverde{
+    width: 100%;
+    padding: 2.5rem;
+
+}
+
+/*  width: 400
+    height: 225
+ */
+
+#maraton .verde picture img{
+    margin: auto;
+    padding-top: 30px;
+    width: 100%;
+
+}
+
+#maraton .noverde picture img{
+    margin: auto;
+    padding-top: 30px;
+    width: 100%;
+}
+
+
+/*Selector Quienes Somos?*/
+
+.somos{
+    background-color: rgb(119, 165, 119);
+    padding: 2.5rem;
+    width: 100%;
+
+}
+
+.quienes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nosotros{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.4rem;
+    padding-bottom: 25px;
+
+}
+
+.quienes p{
+    font-size: 1.2rem;
+    line-height: 1.45rem;
+
+}
+
+/*Selector h2 form*/
+
+#datos{
+    font-family: 'Aleo', serif;
+    font-size: 2.4rem;
+    color: rgb(74, 44, 44);
+    background-color: rgb(183, 206, 183);
+    padding-top: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+form {
+    background: rgb(119, 165, 119);
+    padding: 2.5rem;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+label{
+    display: block;
+}
+
+.sino{
+    display: flex;
+    justify-content: center;
+}
+/*Selector primer checkbox*/
+
+form > div > div.sino > div:nth-child(1){
+    padding-right: 40px;
+}
+
+.form{
+    padding: 1rem;
+    background-color: rgb(183, 206, 183);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+/*Boton si formulario*/
+form > div > div.sino > div:nth-child(1){
+    padding-right: 50px;
+}
+
+form .form label{
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: rgb(74, 44, 44);
+
+}
+
+form .form div{
+    padding-bottom: 2rem;
+}
+
+/*padding para los inputs selector*/
+body > div > form > div > div.sino{
+    padding-bottom: 0;
+}
+
+form .form div .escribir{
+    height: 30px;
+    width: 90%;
+}
+
+form .form div textarea{
+    height: 160px;
+    width: 90%;
+    resize: none;
+
+}
+
+.enviar{
+    font-family: 'Prompt', sans-serif;
+    width: 100px;
+    height: 45px;
+    border-radius: 22px;
+    /* border: solid 2px white; */
+    background-color: rgb(74, 44, 44);
+    color: white;
+    font-size: 1.5rem;
+}
+
+form .form .sino div input{
+    width: 25px;
+    height: 25px;
+}
+
+input{
+    border-color: rgb(74, 44, 44);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2px;
+    background: white;
+}
+
+textarea{
+    border-color: rgb(74, 44, 44);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+footer{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 2.5rem;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+footer ul li{
+    padding: .3rem 0;
+}
+
+.redes a{
+    margin: 0 10px;
+}
+
+#gracias{
+    display: none;
+    max-width: 486px;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: pink;
+    border: solid 2px black;
+}
+
+#gracias:target{
+    display: block;
+}
+
+#gracias a{
+    display: block;
+    background-color: blanchedalmond;
+    width: 40%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px auto auto;
+    color: black;
+}
+
+#gracias a:hover{
+    background-color: rgb(218, 232, 218);
+}
+
+
+@media screen and (min-width: 481px){
+
+    .running h2{
+        font-size: 2rem;
+    }
+
+header{
+    background-image: url("img/banner_tablet.jpg");
+}
+
+header h1{
+    display: block;
+    text-align: right;
+    padding-right: 25px;
+    /* padding-top: 10px; */
+    max-width: 458px;
+    font-size: 2.4rem;
+    color: rgb(74, 44, 44);
+    line-height: 2.4rem;
+}
+
+    .beneficios > h2{
+
+    background-color: rgb(218, 232, 218);
+    padding-bottom: 40px;
+
+}
+
+#beneficio{
+    background-color: rgb(183, 206, 183);
+
+}
+
+#beneficio h3 {
+    font-family: 'Prompt', sans-serif;
+    padding-top: 0;
+}
+
+.beneficios{
+    padding: 2.5rem;
+}
+
+
+iframe{
+    /*max-width: 384px;*/
+    /*max-height: 452px;*/
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*NO SE CUAL ES ESTE*/
+
+
+
+    /*  width: 400
+        height: 225
+     */
+
+
+    .video p{
+        max-width: 380px;
+        font-size: 1.3rem;
+       line-height: 1.6rem;
+
+    }
+
+
+
+    .verde {
+        background-color: rgb(183, 206, 183);
+        max-width: 485px;
+        padding: 2.5rem;
+        margin: auto;
+    }
+
+    .noverde{
+        max-width: 485px;
+        padding: 2.5rem;
+        margin: auto;
+    }
+
+    #maraton > figure.world > p {
+        font-size: 1.2rem;
+        padding: 35px 0 15px;
+        line-height: 1.45rem;
+        max-width: 485px;
+        margin: auto;
+    }
+
+    #maraton > figure > div > p{
+        max-width: 385px;
+    }
+
+/*#maraton .verde p{*/
+/*    max-width: 400px;*/
+/*}*/
+
+/*#maraton .noverde p{*/
+/*        max-width: 400px;*/
+/*}*/
+
+
+
+    .somos p{
+        max-width: 485px;
+        padding: 2.5rem 0;
+        margin: auto;
+}
+
+    #datos{
+        max-width: 485px;
+        margin: auto;
+    }
+
+    .form{
+        max-width: 485px;
+        margin: auto;
+    }
+
+    .world{
+        width: 464px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 656px){
+
+
+header h1{
+    display: block;
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 34px;
+    max-width: 458px;
+    font-size: 2.4rem;
+    color: rgb(74, 44, 44);
+    line-height: normal;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 781px) and (max-width: 911px){
+
+    .texto{
+        display: block;
+        padding-top: 24%;
+        padding-left: 84%;
+    }
+
+    body > header > div > p:nth-child(1){
+        display: none;
+        padding-left: 81%;
+        padding-top: 20%;
+    }
+
+    body > header > div > p:nth-child(2){
+        padding-top: 5rem;
+        display: inline-block;
+    }
+
+    body > header > div > p:nth-child(2) > a {
+        display: block;
+        text-decoration: none;
+        padding: 1rem;
+        color: white;
+        background-color: rgb(74, 44, 44);
+        border-radius: 15px;
+    }
+
+    body > header > div > p:nth-child(2) > a:hover{
+        background-color: rgb(119, 165, 119);
+    }
+
+}
+
+
+@media screen and (min-width: 781px){
+
+
+
+    header{
+        background-image: url("img/banner_pc.jpg");
+    }
+
+    #hamburguesa{
+        display: none;
+    }
+
+    #barra{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 50%;
+        margin-left: 50%;
+
+    }
+
+    #barra li{
+        font-family: 'Prompt', sans-serif;
+        background: transparent;
+        margin: 0;
+    }
+
+    #barra li a:hover{
+        background: antiquewhite;
+    }
+
+    header h1{
+        padding-top: 8px;
+        width: 42vw;
+        height: 95px;
+    }
+
+
+    nav {
+        position: initial;
+        background-color: transparent;
+
+    }
+
+    .beneficios > h2{
+        background-color: transparent;
+        padding-bottom: 0;
+        padding-top: 25px;
+        font-size: 3rem;
+    }
+
+    .beneficios{
+        background-color: rgb(183, 206, 183);
+        padding: 0;
+        border-radius: 35px;
+        max-width: 800px;
+        margin: 60px auto auto;
+
+    }
+
+    #beneficio{
+        background-color: transparent;
+    }
+
+
+
+    .pc{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 945px;
+        margin: auto;
+        text-align: initial;
+    }
+
+    .pastilla{
+        margin: 3rem auto;
+    }
+
+    .pc .pastilla{
+        display: flex;
+
+    }
+
+    .running h2{
+        padding-bottom: 0;
+        font-size: 2.5rem;
+
+    }
+
+
+    /* H2 CORRER Y LEER*/
+    /*body > section:nth-child(4) h2{*/
+    /*    font-family: 'Prompt', sans-serif;*/
+    /*    text-align: center;*/
+    /*    font-size: 2.5rem;*/
+    /*}*/
+
+
+
+    .running{
+        text-align: center;
+    }
+
+    .will{
+        border-radius: 75px;
+    }
+
+    .world{
+        display: flex;
+        padding: 2.5rem;
+        margin: auto;
+        width: unset;
+        max-width: 1200px;
+
+    }
+
+    .world div{
+        margin: auto;
+    }
+
+
+
+    /*.marathon{*/
+    /*    display: block;*/
+    /*    max-width: 405px;*/
+    /*    margin: auto;*/
+    /*    padding-top: 30px;*/
+    /*}*/
+
+
+    .maratones{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+
+    #maraton > div > figure:nth-child(3){
+        background-color: transparent;
+    }
+
+    #maraton > div > figure:nth-child(4){
+        background-color: rgb(183, 206, 183);
+    }
+
+
+    #maraton > figure > div > p{
+        padding-top: 20px;
+    }
+
+
+    #nosotros{
+        margin: auto;
+        width: fit-content;
+    }
+
+    .quienes p{
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 912px){
+
+    .texto{
+        display: block;
+        padding-top: 12%;
+        text-align: end;
+        padding-left: 62%;
+        padding-right: 2%;
+    }
+
+    body > header > div > p:nth-child(2){
+        padding-top: 5rem;
+        display: inline-block;
+    }
+
+    body > header > div > p:nth-child(2) > a {
+        display: block;
+        text-decoration: none;
+        padding: 1rem;
+        color: white;
+        background-color: rgb(74, 44, 44);
+        border-radius: 15px;
+    }
+
+    body > header > div > p:nth-child(2) > a:hover{
+        background-color: rgb(119, 165, 119);
+    }
+
+    .video{
+        display: flex;
+        padding-top: 55px;
+    }
+
+    .video figure{
+        margin-left: 45px;
+    }
+
+    .articulo{
+        width: 50vw;
+        height: calc(50vw * 315 / 560);
+    }
+
+    body > section:nth-child(4) h2{
+        padding-bottom: 35px;
+    }
+
+    .marathon{
+        display: block;
+        max-width: 405px;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1175px){
+    header h1{
+        max-width: 480px;
+        font-size: 3rem;
+    }
+}

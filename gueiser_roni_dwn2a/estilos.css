@@ -900,6 +900,8 @@ header h1{
 
     #maraton > figure > div > p{
         padding-top: 20px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
     }
 
 

@@ -9,7 +9,7 @@ $subject = 'Consultas desde la web';
 
 /* ruta relativa desde ESTE documento al html que quiero que se abra después de mandar el mail. También se puede poner en target una caja que estuviera display none en el mismo html que contiene el form y que al enviar el mail y volver a ese mismo html, se ajuste display block al entrar en target (en vez de ponerla en target con un vínculo lo hacemos al volver desde el php luego de enviar el mail), por ejemplo, contacto.html#enviado */
 
-$enviado="/index.html#gracias";
+$enviado="index.html#gracias";
 
 
 

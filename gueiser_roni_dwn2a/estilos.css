@@ -171,6 +171,7 @@ header h1 {
 }
 
 #beneficio h3{
+    font-family: 'Prompt', sans-serif;
     padding-bottom: 15px;
     color: rgb(74, 44, 44);
     font-size: 1.5rem;

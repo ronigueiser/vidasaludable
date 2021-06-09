@@ -40,6 +40,7 @@ header {
 
 #barra{
     display:none;
+
 }
 
 #menu:target #hamburguesa li:first-child{
@@ -53,6 +54,7 @@ header {
 
 #menu:target #barra{
     display: block;
+    padding-bottom: 35px;
 }
 
 nav{

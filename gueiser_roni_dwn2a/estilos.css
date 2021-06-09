@@ -481,6 +481,7 @@ body > div > form > div > div.sino{
 form .form div .escribir{
     height: 30px;
     width: 90%;
+    font-size: 1rem;
 }
 
 form .form div textarea{

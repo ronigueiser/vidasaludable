@@ -323,6 +323,7 @@ iframe{
 
 #maraton > figure > div > p{
     padding-top: 25px;
+    font-size: 1.2rem;
 }
 /*Selector parrafo maratones World Major*/
 #maraton > figure.world > p{
@@ -890,13 +891,13 @@ header h1{
         padding-bottom: 15px;
     }
 
-    #maraton > div > figure:nth-child(3){
-        background-color: transparent;
-    }
+    /*#maraton > div > figure:nth-child(3){*/
+    /*    background-color: transparent;*/
+    /*}*/
 
-    #maraton > div > figure:nth-child(4){
-        background-color: rgb(183, 206, 183);
-    }
+    /*#maraton > div > figure:nth-child(4){*/
+    /*    background-color: rgb(183, 206, 183);*/
+    /*}*/
 
 
     #maraton > figure > div > p{
@@ -919,6 +920,16 @@ header h1{
 
 }
 
+
+@media screen and (min-width: 970px){
+    #maraton > div > figure:nth-child(3){
+        background-color: transparent;
+    }
+
+    #maraton > div > figure:nth-child(4) {
+        background-color: rgb(183, 206, 183);
+    }
+}
 
 
 

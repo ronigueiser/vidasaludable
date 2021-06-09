@@ -316,7 +316,7 @@ iframe{
 }
 
 .world h2{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Aleo', serif;
     font-size: 2.4rem;
     color: rgb(74, 44, 44);
 }
@@ -977,11 +977,22 @@ header h1{
         padding-top: 30px;
     }
 
+    .texto p{
+        padding-top: 26px;
+    }
+
 }
+
+@media screen and (min-width: 955px){
+    .texto p{
+        padding-top: 0;
+    }
+}
+
 
 @media screen and (min-width: 1175px){
     header h1{
-        max-width: 480px;
+        max-width: 500px;
         font-size: 3rem;
     }
 }

@@ -544,6 +544,7 @@ footer ul li{
 
 .redes a{
     margin: 0 10px;
+    display: inline-block;
 }
 
 #gracias{
